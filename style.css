@@ -106,3 +106,34 @@ body {
     font-size: 15px;
     color: #ffd700;
 }
+
+.secure-info {
+    margin-top: 10px;
+    color: #25d365;
+    font-size: 1rem;
+    display: relative;
+    align-items: center;
+    margin-top: 67px;
+}
+
+.secure-info i {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b3b3b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #191919;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
